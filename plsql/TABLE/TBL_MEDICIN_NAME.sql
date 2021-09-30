@@ -1,0 +1,11 @@
+CREATE TABLE "USR_STORE_MAIN"."TBL_MEDICIN_NAME"
+  (
+    "MED_ID"        NUMBER,
+    "MED_CODE"      VARCHAR2(5 BYTE),
+    "MED_NAME"      VARCHAR2(50 BYTE),
+    "MED_TYPE"      NUMBER,
+    "MED_QUANT"     NUMBER,
+    "MED_COMP_NAME" NUMBER,
+    "ACTIVE"        CHAR(1 BYTE),
+    PRIMARY KEY ("MED_ID")
+  );
